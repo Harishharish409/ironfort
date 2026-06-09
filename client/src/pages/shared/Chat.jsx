@@ -13,7 +13,7 @@ import ChatWindow from '../../components/shared/ChatWindow';
 
 const SOCKET_URL = import.meta.env.VITE_SOCKET_URL
   || import.meta.env.VITE_API_BASE?.replace(/\/api\/?$/, '')
-  || 'http://localhost:5000';
+  || 'https://ironfort.onrender.com';
 
 const roleBadgeClasses = {
   admin: 'border-rose-200 bg-rose-50 text-rose-700',
