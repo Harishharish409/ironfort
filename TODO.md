@@ -1,0 +1,6 @@
+- [x] Remove address/emergency fields from AddMember form
+- [x] Assign subscription plan during AddMember
+- [x] Backend inactive login message set (server/controllers/auth.controller.js)
+- [ ] Ensure hard delete for inactive users (backend + UI)
+- [ ] Prevent duplicate username/email/mobile during trainer/member add (backend + UI messaging)
+- [x] Update Login UI to show exact inactive message
